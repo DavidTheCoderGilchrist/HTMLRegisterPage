@@ -2,25 +2,59 @@ body {
     background-color: lightblue
 }
 
-.nav{
-    position: fixed;
-    text-align: right;
-    width: 100%;
+.navbar{
     background-color: white;
-    border-style: hidden;
+    list-style-type: none;
+    margin: -.5em;
+    padding: 0;
+    overflow: hidden
+}
+
+#navbutton{
+    display: block;
+    background-color: navy;
+    color: white;
+    border: solid;
+    float: right;
+    padding: 20px;   
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 400px;
+    padding: 16px;
+    margin: 5px 0 15px 0;
+    border: inset;
+    background: white;
 }
 
 .box{
-    margin-top: 50px;
-    margin-right: 250px;
-    margin-bottom: 200px;
-    margin-left: 200px;
-    padding: 20px 20px 20px 40px; 
-    border-style: hidden;
     background-color: white;
-
+    border:2px solid;
+    height:575px;
+    width: 450px;
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    position: fixed;
+    margin-top: -25%;
+    padding: 20px 20px 20px 40px;   
+    
 }
 
+#submit{
+    display: block;
+    background-color: navy;
+    color: white;
+    width: 400px;
+    border: inset;
+    margin: 5px 0 15px 0;
+    padding: 16px;
+}
 
+.social{
+    margin-top: 2em;
+    align-content: center;
+    padding-bottom: 5em;
+}
 
 
